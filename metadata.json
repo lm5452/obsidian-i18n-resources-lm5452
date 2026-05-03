@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "-AbrFkMd7D0m4Rm3hymNG1-imQOn94Af",
+        "plugin": "tasknotes",
+        "language": "zh-cn",
+        "version": "4.5.3",
+        "supported_versions": "4.5.3",
+        "title": "TaskNotes",
+        "description": "TaskNotes Localization & Tweaks",
+        "hash": "0ceec5150ceec5150ceec5150ceec515",
+        "created_at": "2026-05-03T05:43:11.201Z",
+        "updated_at": "2026-05-03T05:43:11.201Z",
+        "type": "plugin"
+    }
+]
