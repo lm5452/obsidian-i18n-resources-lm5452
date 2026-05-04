@@ -1,0 +1,1812 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-local-rest-api",
+        "version": "1.0.0",
+        "title": "Local REST API",
+        "description": "Local REST API Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.6.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n      You can access Obsidian Local REST API via the following URLs:\n    ",
+                    "target": "您可以通过以下URL访问Obsidian本地REST API："
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n      Comprehensive documentation of what API endpoints are available can\n      be found in\n      <a href=\"https://coddingtonbear.github.io/obsidian-local-rest-api/\">the online docs</a>.\n    ",
+                    "target": "有关可用API端点的全面文档可以在\n<a href=\"https://coddingtonbear.github.io/obsidian-local-rest-api/\">在线文档</a>中找到。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "\n        <b>Your certificate has expired!</b>\n        You must re-generate your certificate below by pressing\n        the \"Re-generate Certificates\" button below in\n        order to connect securely to this API.\n      ",
+                    "target": "<b>您的证书已过期！</b>\n您必须重新生成证书以安全地连接到此API。\n请按下下面的“重新生成证书”按钮进行操作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "ACTION NEEDED: require('iconv-lite').extendNodeEncodings() is not supported in your version of Node",
+                    "target": "ACTION NEEDED: require('iconv-lite').extendNodeEncodings() is not supported in your version of Node"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "See more info at https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility",
+                    "target": "See more info at https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding",
+                    "target": "Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.",
+                    "target": "iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Could not prepare simple search: ",
+                    "target": "Could not prepare simple search: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No stack available!",
+                    "target": "No stack available!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义季度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义年度笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[REST API] Added new API extension",
+                    "target": "[REST API] 添加了新的API扩展"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Reset All Crypto",
+                    "target": "重置所有加密货币"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Re-generate Certificates",
+                    "target": "重新生成证书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Restore Defaults",
+                    "target": "恢复默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enables a non-encrypted (HTTP) server on the port designated below.  By default this plugin requires a secure HTTPS connection, but in safe environments you may turn on the non-encrypted server to simplify interacting with the API. Interactions with the API will still require the API Key shown above.  Under no circumstances is it recommended that you expose this service to the internet, especially if you turn on this feature!",
+                    "target": "启用非加密（HTTP）服务器，端口由下面指定。默认情况下，此插件要求安全的HTTPS连接，但在安全的环境中，您可以打开非加密服务器以简化与API的交互。与API的交互仍然需要上述显示的API密钥。在任何情况下都不建议将此服务暴露在互联网上，特别是如果您启用了此功能！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pressing this button will cause your certificate,\n        private key, public key, and API key to be regenerated.\n        This settings panel will be closed when you press this.",
+                    "target": "按下此按钮将导致您的证书、私钥、公钥和API密钥被重新生成。\n        当您点击后，此设置面板将被关闭。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Pressing this button will reset this plugin's\n        settings to defaults.\n        This settings panel will be closed when you press this.",
+                    "target": "按此按钮将重置插件的设置为默认值。\n        当您按下此按钮时，该设置面板将被关闭。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Advanced settings are dangerous and may make your environment less secure.",
+                    "target": "高级设置可能使您的环境变得不安全。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n          This controls whether the HTTPs server is enabled.  You almost certainly want to leave this switch in its default state ('on'),\n          but may find it useful to turn this switch off for\n          troubleshooting.\n        ",
+                    "target": "\n          此选项控制HTTPS服务器的启用状态。您几乎肯定希望将其保持在默认状态（“打开”），但可能在故障排除时发现关闭此开关很有用。\n        "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This configures the port on which your REST API will listen for HTTPS connections.  It is recommended that you leave this port with its default setting as tools integrating with this API may expect the default port to be in use.  Under no circumstances is it recommended that you expose this service directly to the internet.",
+                    "target": "此配置用于设置REST API监听HTTPS连接的端口。建议您保留其默认设置，因为与该API集成的工具可能会期望使用默认端口。在任何情况下都不建议直接将该服务暴露在互联网上。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "\n          List of extra hostnames to add\n          to your certificate's \\`subjectAltName\\` field.\n          One hostname per line.\n          You must click the \"Re-generate Certificates\" button above after changing this value\n          for this to have an effect.  This is useful for\n          situations in which you are accessing Obsidian\n          from a hostname other than the host on which\n          it is running.\n      ",
+                    "target": "\n          要添加到证书的 \\`subjectAltName\\` 字段的额外主机名列表。\n          每行一个主机名。\n          更改此值后必须点击上面的“重新生成证书”按钮才能生效。这对于以下情况非常有用：您从运行Obsidian的主机以外的其他主机访问它。\n      "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Non-encrypted (HTTP) Server",
+                    "target": "启用非加密（HTTP）服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reset All Cryptography",
+                    "target": "重置所有密码学"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Re-generate Certificates",
+                    "target": "重新生成证书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Restore Default Settings",
+                    "target": "恢复默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show advanced settings",
+                    "target": "显示高级设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable Encrypted (HTTPs) Server",
+                    "target": "启用加密（HTTPS）服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Encrypted (HTTPS) Server Port",
+                    "target": "加密（HTTPS）服务器端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Non-encrypted (HTTP) Server Port",
+                    "target": "非加密（HTTP）服务器端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API Key",
+                    "target": "API密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Certificate Hostnames",
+                    "target": "证书主机名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Certificate",
+                    "target": "证书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Public Key",
+                    "target": "公钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Private Key",
+                    "target": "私钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Authorization Header",
+                    "target": "授权头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Binding Host",
+                    "target": "绑定主机"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate is not valid yet or has expired.",
+                    "target": "证书尚未生效或已过期。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate signature is invalid.",
+                    "target": "证书签名无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate is not trusted.",
+                    "target": "证书不可信。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate issuer is invalid.",
+                    "target": "证书发行者无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate has an unsupported critical extension.",
+                    "target": "证书包含不受支持的关键扩展。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate keyUsage or basicConstraints conflict or indicate that the certificate is not a CA. If the certificate is the only one in the chain or isn't the first then the certificate must be a valid CA.",
+                    "target": "证书的keyUsage或basicConstraints冲突，或者表明该证书不是CA。如果证书是链中的唯一一个或不是第一个，则该证书必须是有效的CA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate basicConstraints indicates the certificate is not a CA.",
+                    "target": "证书的基本约束表明该证书不是CA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Certificate basicConstraints pathLenConstraint violated.",
+                    "target": "证书的基本约束路径长度约束被违反。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The application rejected the certificate.",
+                    "target": "应用程序拒绝了证书。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected message. Received TLS record out of order.",
+                    "target": "意外的消息。收到乱序的TLS记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "TLS version change is disallowed during renegotiation.",
+                    "target": "在重协商期间不允许更改TLS版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No cipher suites in common.",
+                    "target": "没有共同的密码套件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Incompatible TLS version.",
+                    "target": "不兼容的TLS版本。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Certificate message. Message too short.",
+                    "target": "无效证书消息。消息太短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not parse certificate list.",
+                    "target": "无法解析证书列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid key parameters. Only RSA is supported.",
+                    "target": "无效密钥参数。仅支持RSA。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not get private key.",
+                    "target": "无法获取私钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No private key set.",
+                    "target": "未设置私钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid CertificateRequest. Message too short.",
+                    "target": "无效CertificateRequest。消息太短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid CertificateVerify. Message too short.",
+                    "target": "无效的证书验证。消息太短。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Bad signature in CertificateVerify.",
+                    "target": "证书验证中有错误的签名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid ServerHelloDone message. Invalid length.",
+                    "target": "无效的服务器Hello完成消息。长度无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "No server certificate provided. Not enough security.",
+                    "target": "没有提供服务器证书。安全性不足。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid ChangeCipherSpec message received.",
+                    "target": "接收到无效的ChangeCipherSpec消息。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid verify_data in Finished message.",
+                    "target": "完成消息中的verify_data无效。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not decrypt record or bad MAC.",
+                    "target": "无法解密记录或MAC错误。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not decompress record.",
+                    "target": "无法解压记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not compress record.",
+                    "target": "无法压缩记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not encrypt record.",
+                    "target": "无法加密记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Could not send certificate list.",
+                    "target": "无法发送证书列表。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid fragmented record.",
+                    "target": "无效的断片记录。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Cannot initiate handshake as a server.",
+                    "target": "作为服务器，无法启动握手。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Handshake already in progress.",
+                    "target": "握手中已进行中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Unexpected block-seq-ind on same line with key",
+                    "target": "意外在同一行上遇到块序列指示符与密钥"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "A single '?query=' parameter is required.",
+                    "target": "需要一个单独的'？查询='参数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "PrivateKeyInfo",
+                    "target": "PrivateKeyInfo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RSAPrivateKey",
+                    "target": "RSAPrivateKey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RSAPublicKey",
+                    "target": "RSAPublicKey"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SubjectPublicKeyInfo",
+                    "target": "SubjectPublicKeyInfo"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "DigestInfo",
+                    "target": "摘要信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EncryptedPrivateKeyInfo",
+                    "target": "加密私钥信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ContentInfo",
+                    "target": "内容信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EncryptedContentInfo",
+                    "target": "加密内容信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EnvelopedData",
+                    "target": "封装数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "EncryptedData",
+                    "target": "加密数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SignerInfo",
+                    "target": "签名者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SignedData",
+                    "target": "已签名字段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "RecipientInfo",
+                    "target": "接收者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate",
+                    "target": "证书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notBefore (utc)",
+                    "target": "证书.TBSCertificate有效期.生效前(UTC)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notBefore (generalized)",
+                    "target": "证书.TBSCertificate有效期.生效前(一般化)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notAfter (utc)",
+                    "target": "证书.TBSCertificate有效期.失效后(UTC)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Certificate.TBSCertificate.validity.notAfter (generalized)",
+                    "target": "证书.TBSCertificate有效期.失效后(一般化)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CertificationRequestInfo",
+                    "target": "认证请求信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CertificationRequest",
+                    "target": "认证请求"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "SafeBag",
+                    "target": "安全包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attribute",
+                    "target": "属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "CertBag",
+                    "target": "证书包"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Local REST API",
+                    "target": "本地REST API"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "How to Access",
+                    "target": "如何访问"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "For example, the following request will return all notes in the root directory of your vault:",
+                    "target": "例如，以下请求将返回您保险库根目录中的所有笔记："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings",
+                    "target": "设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings",
+                    "target": "高级设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n          The settings below are potentially dangerous and\n          are intended for use only by people who know what\n          they are doing. Do not change any of these settings if\n          you do not understand what that setting is used for\n          and what security impacts changing that setting will have.\n        ",
+                    "target": "\n          下面的设置可能具有潜在危险，并且仅适用于了解情况的人使用。\n          如果您不了解该设置的用途以及更改该设置的安全影响，请不要更改这些设置。\n        "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "\n          Use of this software is licensed to you under the\n          MIT license, and it is important that you understand that \n          this license provides you with no warranty.\n          For the complete license text please see\n        ",
+                    "target": "\n          本软件的使用受MIT许可证约束，并且重要的是您应该明白这个许可证向您提供没有任何保证。\n          请参阅完整的许可文本以获取更多信息。\n        "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Disabled.  You can enable this in 'Settings' below.",
+                    "target": "禁用。您可以启用此功能在下面的“设置”中."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Enabled",
+                    "target": "启用"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"ACTION NEEDED: require('iconv-lite').extendNodeEncodings() is not supported in your version of Node\")",
+                    "target": "error(\"ACTION NEEDED: require('iconv-lite').extendNodeEncodings() is not supported in your version of Node\")"
+                },
+                {
+                    "source": "error(\"See more info at https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility\")",
+                    "target": "error(\"See more info at https://github.com/ashtuchkin/iconv-lite/wiki/Node-v4-compatibility\")"
+                },
+                {
+                    "source": "error(\"Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding\")",
+                    "target": "error(\"Iconv-lite warning: decode()-ing strings is deprecated. Refer to https://github.com/ashtuchkin/iconv-lite/wiki/Use-Buffers-when-decoding\")"
+                },
+                {
+                    "source": "error(\"iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.\")",
+                    "target": "error(\"iconv-lite warning: javascript files use encoding different from utf-8. See https://github.com/ashtuchkin/iconv-lite/wiki/Javascript-source-file-encodings for more info.\")"
+                },
+                {
+                    "source": "error(\"No stack available!\")",
+                    "target": "error(\"No stack available!\")"
+                },
+                {
+                    "source": "log(`[REST API] ${req.method} ${req.url} => ${res.statusCode}`)",
+                    "target": "log(`[REST API] ${req.method} ${req.url} => ${res.statusCode}`)"
+                },
+                {
+                    "source": "setName(\"Enable Non-encrypted (HTTP) Server\")",
+                    "target": "setName(\"Enable Non-encrypted (HTTP) Server\")"
+                },
+                {
+                    "source": "setName(\"Reset All Cryptography\")",
+                    "target": "setName(\"Reset All Cryptography\")"
+                },
+                {
+                    "source": "setDesc(`Pressing this button will cause your certificate,\n        private key, public key, and API key to be regenerated.\n        This settings panel will be closed when you press this.`)",
+                    "target": "setDesc(`Pressing this button will cause your certificate,\n        private key, public key, and API key to be regenerated.\n        This settings panel will be closed when you press this.`)"
+                },
+                {
+                    "source": "setButtonText(\"Reset All Crypto\")",
+                    "target": "setButtonText(\"Reset All Crypto\")"
+                },
+                {
+                    "source": "setName(\"Re-generate Certificates\")",
+                    "target": "setName(\"Re-generate Certificates\")"
+                },
+                {
+                    "source": "setButtonText(\"Re-generate Certificates\")",
+                    "target": "setButtonText(\"Re-generate Certificates\")"
+                },
+                {
+                    "source": "setName(\"Restore Default Settings\")",
+                    "target": "setName(\"Restore Default Settings\")"
+                },
+                {
+                    "source": "setDesc(`Pressing this button will reset this plugin's\n        settings to defaults.\n        This settings panel will be closed when you press this.`)",
+                    "target": "setDesc(`Pressing this button will reset this plugin's\n        settings to defaults.\n        This settings panel will be closed when you press this.`)"
+                },
+                {
+                    "source": "setButtonText(\"Restore Defaults\")",
+                    "target": "setButtonText(\"Restore Defaults\")"
+                },
+                {
+                    "source": "setName(\"Show advanced settings\")",
+                    "target": "setName(\"Show advanced settings\")"
+                },
+                {
+                    "source": "setDesc(`Advanced settings are dangerous and may make your environment less secure.`)",
+                    "target": "setDesc(`Advanced settings are dangerous and may make your environment less secure.`)"
+                },
+                {
+                    "source": "setName(\"Enable Encrypted (HTTPs) Server\")",
+                    "target": "setName(\"Enable Encrypted (HTTPs) Server\")"
+                },
+                {
+                    "source": "setDesc(`\n          This controls whether the HTTPs server is enabled.  You almost certainly want to leave this switch in its default state ('on'),\n          but may find it useful to turn this switch off for\n          troubleshooting.\n        `)",
+                    "target": "setDesc(`\n          This controls whether the HTTPs server is enabled.  You almost certainly want to leave this switch in its default state ('on'),\n          but may find it useful to turn this switch off for\n          troubleshooting.\n        `)"
+                },
+                {
+                    "source": "setName(\"Encrypted (HTTPS) Server Port\")",
+                    "target": "setName(\"Encrypted (HTTPS) Server Port\")"
+                },
+                {
+                    "source": "setName(\"Non-encrypted (HTTP) Server Port\")",
+                    "target": "setName(\"Non-encrypted (HTTP) Server Port\")"
+                },
+                {
+                    "source": "setName(\"API Key\")",
+                    "target": "setName(\"API Key\")"
+                },
+                {
+                    "source": "setName(\"Certificate Hostnames\")",
+                    "target": "setName(\"Certificate Hostnames\")"
+                },
+                {
+                    "source": "setName(\"Public Key\")",
+                    "target": "setName(\"Public Key\")"
+                },
+                {
+                    "source": "setName(\"Private Key\")",
+                    "target": "setName(\"Private Key\")"
+                },
+                {
+                    "source": "setName(\"Authorization Header\")",
+                    "target": "setName(\"Authorization Header\")"
+                },
+                {
+                    "source": "setName(\"Binding Host\")",
+                    "target": "setName(\"Binding Host\")"
+                },
+                {
+                    "source": "name = \"ECB\"",
+                    "target": "name = \"ECB\""
+                },
+                {
+                    "source": "name = \"CBC\"",
+                    "target": "name = \"CBC\""
+                },
+                {
+                    "source": "name = \"CFB\"",
+                    "target": "name = \"CFB\""
+                },
+                {
+                    "source": "name = \"OFB\"",
+                    "target": "name = \"OFB\""
+                },
+                {
+                    "source": "name = \"CTR\"",
+                    "target": "name = \"CTR\""
+                },
+                {
+                    "source": "name = \"GCM\"",
+                    "target": "name = \"GCM\""
+                },
+                {
+                    "source": "name: \"Proc-Type\"",
+                    "target": "name: \"Proc-Type\""
+                },
+                {
+                    "source": "name: \"Content-Domain\"",
+                    "target": "name: \"Content-Domain\""
+                },
+                {
+                    "source": "name: \"DEK-Info\"",
+                    "target": "name: \"DEK-Info\""
+                },
+                {
+                    "source": "name: \"PrivateKeyInfo\"",
+                    "target": "name: \"PrivateKeyInfo\""
+                },
+                {
+                    "source": "name: \"PrivateKeyInfo.version\"",
+                    "target": "name: \"PrivateKeyInfo.version\""
+                },
+                {
+                    "source": "name: \"PrivateKeyInfo.privateKeyAlgorithm\"",
+                    "target": "name: \"PrivateKeyInfo.privateKeyAlgorithm\""
+                },
+                {
+                    "source": "name: \"AlgorithmIdentifier.algorithm\"",
+                    "target": "name: \"AlgorithmIdentifier.algorithm\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey\"",
+                    "target": "name: \"RSAPrivateKey\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.version\"",
+                    "target": "name: \"RSAPrivateKey.version\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.modulus\"",
+                    "target": "name: \"RSAPrivateKey.modulus\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.publicExponent\"",
+                    "target": "name: \"RSAPrivateKey.publicExponent\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.privateExponent\"",
+                    "target": "name: \"RSAPrivateKey.privateExponent\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.prime1\"",
+                    "target": "name: \"RSAPrivateKey.prime1\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.prime2\"",
+                    "target": "name: \"RSAPrivateKey.prime2\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.exponent1\"",
+                    "target": "name: \"RSAPrivateKey.exponent1\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.exponent2\"",
+                    "target": "name: \"RSAPrivateKey.exponent2\""
+                },
+                {
+                    "source": "name: \"RSAPrivateKey.coefficient\"",
+                    "target": "name: \"RSAPrivateKey.coefficient\""
+                },
+                {
+                    "source": "name: \"RSAPublicKey\"",
+                    "target": "name: \"RSAPublicKey\""
+                },
+                {
+                    "source": "name: \"RSAPublicKey.modulus\"",
+                    "target": "name: \"RSAPublicKey.modulus\""
+                },
+                {
+                    "source": "name: \"RSAPublicKey.exponent\"",
+                    "target": "name: \"RSAPublicKey.exponent\""
+                },
+                {
+                    "source": "name: \"SubjectPublicKeyInfo\"",
+                    "target": "name: \"SubjectPublicKeyInfo\""
+                },
+                {
+                    "source": "name: \"SubjectPublicKeyInfo.AlgorithmIdentifier\"",
+                    "target": "name: \"SubjectPublicKeyInfo.AlgorithmIdentifier\""
+                },
+                {
+                    "source": "name: \"SubjectPublicKeyInfo.subjectPublicKey\"",
+                    "target": "name: \"SubjectPublicKeyInfo.subjectPublicKey\""
+                },
+                {
+                    "source": "name: \"SubjectPublicKeyInfo.subjectPublicKey.RSAPublicKey\"",
+                    "target": "name: \"SubjectPublicKeyInfo.subjectPublicKey.RSAPublicKey\""
+                },
+                {
+                    "source": "name: \"DigestInfo\"",
+                    "target": "name: \"DigestInfo\""
+                },
+                {
+                    "source": "name: \"DigestInfo.DigestAlgorithm\"",
+                    "target": "name: \"DigestInfo.DigestAlgorithm\""
+                },
+                {
+                    "source": "name: \"DigestInfo.DigestAlgorithm.algorithmIdentifier\"",
+                    "target": "name: \"DigestInfo.DigestAlgorithm.algorithmIdentifier\""
+                },
+                {
+                    "source": "name: \"DigestInfo.DigestAlgorithm.parameters\"",
+                    "target": "name: \"DigestInfo.DigestAlgorithm.parameters\""
+                },
+                {
+                    "source": "name: \"DigestInfo.digest\"",
+                    "target": "name: \"DigestInfo.digest\""
+                },
+                {
+                    "source": "name: \"RSASSA-PKCS1-v1_5\"",
+                    "target": "name: \"RSASSA-PKCS1-v1_5\""
+                },
+                {
+                    "source": "name: \"SHA-256\"",
+                    "target": "name: \"SHA-256\""
+                },
+                {
+                    "source": "name: \"EncryptedPrivateKeyInfo\"",
+                    "target": "name: \"EncryptedPrivateKeyInfo\""
+                },
+                {
+                    "source": "name: \"EncryptedPrivateKeyInfo.encryptionAlgorithm\"",
+                    "target": "name: \"EncryptedPrivateKeyInfo.encryptionAlgorithm\""
+                },
+                {
+                    "source": "name: \"AlgorithmIdentifier.parameters\"",
+                    "target": "name: \"AlgorithmIdentifier.parameters\""
+                },
+                {
+                    "source": "name: \"EncryptedPrivateKeyInfo.encryptedData\"",
+                    "target": "name: \"EncryptedPrivateKeyInfo.encryptedData\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms\"",
+                    "target": "name: \"PBES2Algorithms\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.keyDerivationFunc\"",
+                    "target": "name: \"PBES2Algorithms.keyDerivationFunc\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.keyDerivationFunc.oid\"",
+                    "target": "name: \"PBES2Algorithms.keyDerivationFunc.oid\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params\"",
+                    "target": "name: \"PBES2Algorithms.params\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params.salt\"",
+                    "target": "name: \"PBES2Algorithms.params.salt\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params.iterationCount\"",
+                    "target": "name: \"PBES2Algorithms.params.iterationCount\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params.keyLength\"",
+                    "target": "name: \"PBES2Algorithms.params.keyLength\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params.prf\"",
+                    "target": "name: \"PBES2Algorithms.params.prf\""
+                },
+                {
+                    "source": "name: \"PBES2Algorithms.params.prf.algorithm\"",
+                    "target": "name: \"PBES2Algorithms.params.prf.algorithm\""
+                },
+                {
+                    "source": "name: \"pkcs-12PbeParams\"",
+                    "target": "name: \"pkcs-12PbeParams\""
+                },
+                {
+                    "source": "name: \"pkcs-12PbeParams.salt\"",
+                    "target": "name: \"pkcs-12PbeParams.salt\""
+                },
+                {
+                    "source": "name: \"pkcs-12PbeParams.iterations\"",
+                    "target": "name: \"pkcs-12PbeParams.iterations\""
+                },
+                {
+                    "source": "name: \"ContentInfo\"",
+                    "target": "name: \"ContentInfo\""
+                },
+                {
+                    "source": "name: \"ContentInfo.ContentType\"",
+                    "target": "name: \"ContentInfo.ContentType\""
+                },
+                {
+                    "source": "name: \"ContentInfo.content\"",
+                    "target": "name: \"ContentInfo.content\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo\"",
+                    "target": "name: \"EncryptedContentInfo\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo.contentType\"",
+                    "target": "name: \"EncryptedContentInfo.contentType\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm\"",
+                    "target": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm.algorithm\"",
+                    "target": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm.parameter\"",
+                    "target": "name: \"EncryptedContentInfo.contentEncryptionAlgorithm.parameter\""
+                },
+                {
+                    "source": "name: \"EncryptedContentInfo.encryptedContent\"",
+                    "target": "name: \"EncryptedContentInfo.encryptedContent\""
+                },
+                {
+                    "source": "name: \"EnvelopedData\"",
+                    "target": "name: \"EnvelopedData\""
+                },
+                {
+                    "source": "name: \"EnvelopedData.Version\"",
+                    "target": "name: \"EnvelopedData.Version\""
+                },
+                {
+                    "source": "name: \"EnvelopedData.RecipientInfos\"",
+                    "target": "name: \"EnvelopedData.RecipientInfos\""
+                },
+                {
+                    "source": "name: \"EncryptedData\"",
+                    "target": "name: \"EncryptedData\""
+                },
+                {
+                    "source": "name: \"EncryptedData.Version\"",
+                    "target": "name: \"EncryptedData.Version\""
+                },
+                {
+                    "source": "name: \"SignerInfo\"",
+                    "target": "name: \"SignerInfo\""
+                },
+                {
+                    "source": "name: \"SignerInfo.version\"",
+                    "target": "name: \"SignerInfo.version\""
+                },
+                {
+                    "source": "name: \"SignerInfo.issuerAndSerialNumber\"",
+                    "target": "name: \"SignerInfo.issuerAndSerialNumber\""
+                },
+                {
+                    "source": "name: \"SignerInfo.issuerAndSerialNumber.issuer\"",
+                    "target": "name: \"SignerInfo.issuerAndSerialNumber.issuer\""
+                },
+                {
+                    "source": "name: \"SignerInfo.issuerAndSerialNumber.serialNumber\"",
+                    "target": "name: \"SignerInfo.issuerAndSerialNumber.serialNumber\""
+                },
+                {
+                    "source": "name: \"SignerInfo.digestAlgorithm\"",
+                    "target": "name: \"SignerInfo.digestAlgorithm\""
+                },
+                {
+                    "source": "name: \"SignerInfo.digestAlgorithm.algorithm\"",
+                    "target": "name: \"SignerInfo.digestAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"SignerInfo.digestAlgorithm.parameter\"",
+                    "target": "name: \"SignerInfo.digestAlgorithm.parameter\""
+                },
+                {
+                    "source": "name: \"SignerInfo.authenticatedAttributes\"",
+                    "target": "name: \"SignerInfo.authenticatedAttributes\""
+                },
+                {
+                    "source": "name: \"SignerInfo.digestEncryptionAlgorithm\"",
+                    "target": "name: \"SignerInfo.digestEncryptionAlgorithm\""
+                },
+                {
+                    "source": "name: \"SignerInfo.encryptedDigest\"",
+                    "target": "name: \"SignerInfo.encryptedDigest\""
+                },
+                {
+                    "source": "name: \"SignerInfo.unauthenticatedAttributes\"",
+                    "target": "name: \"SignerInfo.unauthenticatedAttributes\""
+                },
+                {
+                    "source": "name: \"SignedData\"",
+                    "target": "name: \"SignedData\""
+                },
+                {
+                    "source": "name: \"SignedData.Version\"",
+                    "target": "name: \"SignedData.Version\""
+                },
+                {
+                    "source": "name: \"SignedData.DigestAlgorithms\"",
+                    "target": "name: \"SignedData.DigestAlgorithms\""
+                },
+                {
+                    "source": "name: \"SignedData.Certificates\"",
+                    "target": "name: \"SignedData.Certificates\""
+                },
+                {
+                    "source": "name: \"SignedData.CertificateRevocationLists\"",
+                    "target": "name: \"SignedData.CertificateRevocationLists\""
+                },
+                {
+                    "source": "name: \"SignedData.SignerInfos\"",
+                    "target": "name: \"SignedData.SignerInfos\""
+                },
+                {
+                    "source": "name: \"RecipientInfo\"",
+                    "target": "name: \"RecipientInfo\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.version\"",
+                    "target": "name: \"RecipientInfo.version\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.issuerAndSerial\"",
+                    "target": "name: \"RecipientInfo.issuerAndSerial\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.issuerAndSerial.issuer\"",
+                    "target": "name: \"RecipientInfo.issuerAndSerial.issuer\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.issuerAndSerial.serialNumber\"",
+                    "target": "name: \"RecipientInfo.issuerAndSerial.serialNumber\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.keyEncryptionAlgorithm\"",
+                    "target": "name: \"RecipientInfo.keyEncryptionAlgorithm\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.keyEncryptionAlgorithm.algorithm\"",
+                    "target": "name: \"RecipientInfo.keyEncryptionAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.keyEncryptionAlgorithm.parameter\"",
+                    "target": "name: \"RecipientInfo.keyEncryptionAlgorithm.parameter\""
+                },
+                {
+                    "source": "name: \"RecipientInfo.encryptedKey\"",
+                    "target": "name: \"RecipientInfo.encryptedKey\""
+                },
+                {
+                    "source": "name: \"Certificate\"",
+                    "target": "name: \"Certificate\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate\"",
+                    "target": "name: \"Certificate.TBSCertificate\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.version\"",
+                    "target": "name: \"Certificate.TBSCertificate.version\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.version.integer\"",
+                    "target": "name: \"Certificate.TBSCertificate.version.integer\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.serialNumber\"",
+                    "target": "name: \"Certificate.TBSCertificate.serialNumber\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.signature\"",
+                    "target": "name: \"Certificate.TBSCertificate.signature\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.signature.algorithm\"",
+                    "target": "name: \"Certificate.TBSCertificate.signature.algorithm\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.signature.parameters\"",
+                    "target": "name: \"Certificate.TBSCertificate.signature.parameters\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.issuer\"",
+                    "target": "name: \"Certificate.TBSCertificate.issuer\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.validity\"",
+                    "target": "name: \"Certificate.TBSCertificate.validity\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.validity.notBefore (utc)\"",
+                    "target": "name: \"Certificate.TBSCertificate.validity.notBefore (utc)\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.validity.notBefore (generalized)\"",
+                    "target": "name: \"Certificate.TBSCertificate.validity.notBefore (generalized)\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.validity.notAfter (utc)\"",
+                    "target": "name: \"Certificate.TBSCertificate.validity.notAfter (utc)\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.validity.notAfter (generalized)\"",
+                    "target": "name: \"Certificate.TBSCertificate.validity.notAfter (generalized)\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.subject\"",
+                    "target": "name: \"Certificate.TBSCertificate.subject\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.issuerUniqueID\"",
+                    "target": "name: \"Certificate.TBSCertificate.issuerUniqueID\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.issuerUniqueID.id\"",
+                    "target": "name: \"Certificate.TBSCertificate.issuerUniqueID.id\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.subjectUniqueID\"",
+                    "target": "name: \"Certificate.TBSCertificate.subjectUniqueID\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.subjectUniqueID.id\"",
+                    "target": "name: \"Certificate.TBSCertificate.subjectUniqueID.id\""
+                },
+                {
+                    "source": "name: \"Certificate.TBSCertificate.extensions\"",
+                    "target": "name: \"Certificate.TBSCertificate.extensions\""
+                },
+                {
+                    "source": "name: \"Certificate.signatureAlgorithm\"",
+                    "target": "name: \"Certificate.signatureAlgorithm\""
+                },
+                {
+                    "source": "name: \"Certificate.signatureAlgorithm.algorithm\"",
+                    "target": "name: \"Certificate.signatureAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"Certificate.signatureValue\"",
+                    "target": "name: \"Certificate.signatureValue\""
+                },
+                {
+                    "source": "name: \"rsapss\"",
+                    "target": "name: \"rsapss\""
+                },
+                {
+                    "source": "name: \"rsapss.hashAlgorithm\"",
+                    "target": "name: \"rsapss.hashAlgorithm\""
+                },
+                {
+                    "source": "name: \"rsapss.hashAlgorithm.AlgorithmIdentifier\"",
+                    "target": "name: \"rsapss.hashAlgorithm.AlgorithmIdentifier\""
+                },
+                {
+                    "source": "name: \"rsapss.hashAlgorithm.AlgorithmIdentifier.algorithm\"",
+                    "target": "name: \"rsapss.hashAlgorithm.AlgorithmIdentifier.algorithm\""
+                },
+                {
+                    "source": "name: \"rsapss.maskGenAlgorithm\"",
+                    "target": "name: \"rsapss.maskGenAlgorithm\""
+                },
+                {
+                    "source": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier\"",
+                    "target": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier\""
+                },
+                {
+                    "source": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.algorithm\"",
+                    "target": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.algorithm\""
+                },
+                {
+                    "source": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.params\"",
+                    "target": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.params\""
+                },
+                {
+                    "source": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.params.algorithm\"",
+                    "target": "name: \"rsapss.maskGenAlgorithm.AlgorithmIdentifier.params.algorithm\""
+                },
+                {
+                    "source": "name: \"rsapss.saltLength\"",
+                    "target": "name: \"rsapss.saltLength\""
+                },
+                {
+                    "source": "name: \"rsapss.saltLength.saltLength\"",
+                    "target": "name: \"rsapss.saltLength.saltLength\""
+                },
+                {
+                    "source": "name: \"rsapss.trailerField\"",
+                    "target": "name: \"rsapss.trailerField\""
+                },
+                {
+                    "source": "name: \"rsapss.trailer.trailer\"",
+                    "target": "name: \"rsapss.trailer.trailer\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo\"",
+                    "target": "name: \"CertificationRequestInfo\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo.integer\"",
+                    "target": "name: \"CertificationRequestInfo.integer\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo.subject\"",
+                    "target": "name: \"CertificationRequestInfo.subject\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo.attributes\"",
+                    "target": "name: \"CertificationRequestInfo.attributes\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo.attributes.type\"",
+                    "target": "name: \"CertificationRequestInfo.attributes.type\""
+                },
+                {
+                    "source": "name: \"CertificationRequestInfo.attributes.value\"",
+                    "target": "name: \"CertificationRequestInfo.attributes.value\""
+                },
+                {
+                    "source": "name: \"CertificationRequest\"",
+                    "target": "name: \"CertificationRequest\""
+                },
+                {
+                    "source": "name: \"CertificationRequest.signatureAlgorithm\"",
+                    "target": "name: \"CertificationRequest.signatureAlgorithm\""
+                },
+                {
+                    "source": "name: \"CertificationRequest.signatureAlgorithm.algorithm\"",
+                    "target": "name: \"CertificationRequest.signatureAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"CertificationRequest.signatureAlgorithm.parameters\"",
+                    "target": "name: \"CertificationRequest.signatureAlgorithm.parameters\""
+                },
+                {
+                    "source": "name: \"CertificationRequest.signature\"",
+                    "target": "name: \"CertificationRequest.signature\""
+                },
+                {
+                    "source": "name: \"ContentInfo.contentType\"",
+                    "target": "name: \"ContentInfo.contentType\""
+                },
+                {
+                    "source": "name: \"PFX\"",
+                    "target": "name: \"PFX\""
+                },
+                {
+                    "source": "name: \"PFX.version\"",
+                    "target": "name: \"PFX.version\""
+                },
+                {
+                    "source": "name: \"PFX.macData\"",
+                    "target": "name: \"PFX.macData\""
+                },
+                {
+                    "source": "name: \"PFX.macData.mac\"",
+                    "target": "name: \"PFX.macData.mac\""
+                },
+                {
+                    "source": "name: \"PFX.macData.mac.digestAlgorithm\"",
+                    "target": "name: \"PFX.macData.mac.digestAlgorithm\""
+                },
+                {
+                    "source": "name: \"PFX.macData.mac.digestAlgorithm.algorithm\"",
+                    "target": "name: \"PFX.macData.mac.digestAlgorithm.algorithm\""
+                },
+                {
+                    "source": "name: \"PFX.macData.mac.digestAlgorithm.parameters\"",
+                    "target": "name: \"PFX.macData.mac.digestAlgorithm.parameters\""
+                },
+                {
+                    "source": "name: \"PFX.macData.mac.digest\"",
+                    "target": "name: \"PFX.macData.mac.digest\""
+                },
+                {
+                    "source": "name: \"PFX.macData.macSalt\"",
+                    "target": "name: \"PFX.macData.macSalt\""
+                },
+                {
+                    "source": "name: \"PFX.macData.iterations\"",
+                    "target": "name: \"PFX.macData.iterations\""
+                },
+                {
+                    "source": "name: \"SafeBag\"",
+                    "target": "name: \"SafeBag\""
+                },
+                {
+                    "source": "name: \"SafeBag.bagId\"",
+                    "target": "name: \"SafeBag.bagId\""
+                },
+                {
+                    "source": "name: \"SafeBag.bagValue\"",
+                    "target": "name: \"SafeBag.bagValue\""
+                },
+                {
+                    "source": "name: \"SafeBag.bagAttributes\"",
+                    "target": "name: \"SafeBag.bagAttributes\""
+                },
+                {
+                    "source": "name: \"Attribute\"",
+                    "target": "name: \"Attribute\""
+                },
+                {
+                    "source": "name: \"Attribute.attrId\"",
+                    "target": "name: \"Attribute.attrId\""
+                },
+                {
+                    "source": "name: \"Attribute.attrValues\"",
+                    "target": "name: \"Attribute.attrValues\""
+                },
+                {
+                    "source": "name: \"CertBag\"",
+                    "target": "name: \"CertBag\""
+                },
+                {
+                    "source": "name: \"CertBag.certId\"",
+                    "target": "name: \"CertBag.certId\""
+                },
+                {
+                    "source": "name: \"CertBag.certValue\"",
+                    "target": "name: \"CertBag.certValue\""
+                },
+                {
+                    "source": "name: \"CertBag.certValue[0]\"",
+                    "target": "name: \"CertBag.certValue[0]\""
+                },
+                {
+                    "source": "name: \"TLS_RSA_WITH_AES_128_CBC_SHA\"",
+                    "target": "name: \"TLS_RSA_WITH_AES_128_CBC_SHA\""
+                },
+                {
+                    "source": "name: \"TLS_RSA_WITH_AES_256_CBC_SHA\"",
+                    "target": "name: \"TLS_RSA_WITH_AES_256_CBC_SHA\""
+                },
+                {
+                    "source": "name : \" (anonymous)\"",
+                    "target": "name : \" (anonymous)\""
+                },
+                {
+                    "source": "name = \"get\"",
+                    "target": "name = \"get\""
+                },
+                {
+                    "source": "name = `${prefix}${i}`",
+                    "target": "name = `${prefix}${i}`"
+                },
+                {
+                    "source": "name = \"PatchFailed\"",
+                    "target": "name = \"PatchFailed\""
+                },
+                {
+                    "source": "description: \"Message describing the error.\"",
+                    "target": "description: \"Message describing the error.\""
+                },
+                {
+                    "source": "description: \"Is your current request authenticated?\"",
+                    "target": "description: \"Is your current request authenticated?\""
+                },
+                {
+                    "source": "description: \"\\'OK\\'\"",
+                    "target": "description: \"\\'OK\\'\""
+                },
+                {
+                    "source": "description: \"\\'Obsidian Local REST API\\'\"",
+                    "target": "description: \"\\'Obsidian Local REST API\\'\""
+                },
+                {
+                    "source": "description: \"Obsidian plugin API version\"",
+                    "target": "description: \"Obsidian plugin API version\""
+                },
+                {
+                    "source": "description: \"Plugin version.\"",
+                    "target": "description: \"Plugin version.\""
+                },
+                {
+                    "source": "description: \"Success\"",
+                    "target": "description: \"Success\""
+                },
+                {
+                    "source": "description: \"File does not exist.\"",
+                    "target": "description: \"File does not exist.\""
+                },
+                {
+                    "source": "name: \"Target-Type\"",
+                    "target": "name: \"Target-Type\""
+                },
+                {
+                    "source": "name: \"Target\"",
+                    "target": "name: \"Target\""
+                },
+                {
+                    "source": "description: \"Delimiter used when specifying nested heading targets (e.g. \\\\\"",
+                    "target": "description: \"Delimiter used when specifying nested heading targets (e.g. \\\\\""
+                },
+                {
+                    "source": "name: \"Target-Delimiter\"",
+                    "target": "name: \"Target-Delimiter\""
+                },
+                {
+                    "source": "description: \"Returned when `Target-Type` is `frontmatter`; the JSON value of the specified frontmatter field.\"",
+                    "target": "description: \"Returned when `Target-Type` is `frontmatter`; the JSON value of the specified frontmatter field.\""
+                },
+                {
+                    "source": "description: \"File or target section does not exist\"",
+                    "target": "description: \"File or target section does not exist\""
+                },
+                {
+                    "source": "description: \"Patch operation to perform\"",
+                    "target": "description: \"Patch operation to perform\""
+                },
+                {
+                    "source": "name: \"Operation\"",
+                    "target": "name: \"Operation\""
+                },
+                {
+                    "source": "description: \"If the specified Target does not exist, create it?\"",
+                    "target": "description: \"If the specified Target does not exist, create it?\""
+                },
+                {
+                    "source": "name: \"Create-Target-If-Missing\"",
+                    "target": "name: \"Create-Target-If-Missing\""
+                },
+                {
+                    "source": "description: \"If patch data already exists in Target, apply patch anyway?\"",
+                    "target": "description: \"If patch data already exists in Target, apply patch anyway?\""
+                },
+                {
+                    "source": "name: \"Apply-If-Content-Preexists\"",
+                    "target": "name: \"Apply-If-Content-Preexists\""
+                },
+                {
+                    "source": "description: \"Trim whitespace from Target content before applying the operation?\"",
+                    "target": "description: \"Trim whitespace from Target content before applying the operation?\""
+                },
+                {
+                    "source": "name: \"Trim-Target-Whitespace\"",
+                    "target": "name: \"Trim-Target-Whitespace\""
+                },
+                {
+                    "source": "description: \"Content you would like to insert.\"",
+                    "target": "description: \"Content you would like to insert.\""
+                },
+                {
+                    "source": "description: \"Bad Request; see response message for details.\"",
+                    "target": "description: \"Bad Request; see response message for details.\""
+                },
+                {
+                    "source": "description: \"Does not exist\"",
+                    "target": "description: \"Does not exist\""
+                },
+                {
+                    "source": "description: \"Content you would like to append.\"",
+                    "target": "description: \"Content you would like to append.\""
+                },
+                {
+                    "source": "description: \"Success; targeted section updated. The full updated file content is returned.\"",
+                    "target": "description: \"Success; targeted section updated. The full updated file content is returned.\""
+                },
+                {
+                    "source": "description: \"Success; content appended to end of file.\"",
+                    "target": "description: \"Success; content appended to end of file.\""
+                },
+                {
+                    "source": "description: \"Bad Request\"",
+                    "target": "description: \"Bad Request\""
+                },
+                {
+                    "source": "description: \"Content of the file you would like to upload.\"",
+                    "target": "description: \"Content of the file you would like to upload.\""
+                },
+                {
+                    "source": "description: \"Success; targeted section replaced. The full updated file content is returned.\"",
+                    "target": "description: \"Success; targeted section replaced. The full updated file content is returned.\""
+                },
+                {
+                    "source": "description: \"Success; entire file replaced.\"",
+                    "target": "description: \"Success; entire file replaced.\""
+                },
+                {
+                    "source": "name: \"Search: Search in all files\"",
+                    "target": "name: \"Search: Search in all files\""
+                },
+                {
+                    "source": "name: \"Graph view: Open graph view\"",
+                    "target": "name: \"Graph view: Open graph view\""
+                },
+                {
+                    "source": "description: \"A list of available commands.\"",
+                    "target": "description: \"A list of available commands.\""
+                },
+                {
+                    "source": "description: \"The id of the command to execute\"",
+                    "target": "description: \"The id of the command to execute\""
+                },
+                {
+                    "source": "name: \"commandId\"",
+                    "target": "name: \"commandId\""
+                },
+                {
+                    "source": "description: \"The command you specified does not exist.\"",
+                    "target": "description: \"The command you specified does not exist.\""
+                },
+                {
+                    "source": "name: \"filename\"",
+                    "target": "name: \"filename\""
+                },
+                {
+                    "source": "description: \"Open this as a new leaf?\"",
+                    "target": "description: \"Open this as a new leaf?\""
+                },
+                {
+                    "source": "name: \"newLeaf\"",
+                    "target": "name: \"newLeaf\""
+                },
+                {
+                    "source": "description: \"The name of the period for which you would like to grab a periodic note.\"",
+                    "target": "description: \"The name of the period for which you would like to grab a periodic note.\""
+                },
+                {
+                    "source": "name: \"period\"",
+                    "target": "name: \"period\""
+                },
+                {
+                    "source": "description: \"The year of the date for which you would like to grab a periodic note.\"",
+                    "target": "description: \"The year of the date for which you would like to grab a periodic note.\""
+                },
+                {
+                    "source": "name: \"year\"",
+                    "target": "name: \"year\""
+                },
+                {
+                    "source": "description: \"The month (1-12) of the date for which you would like to grab a periodic note.\"",
+                    "target": "description: \"The month (1-12) of the date for which you would like to grab a periodic note.\""
+                },
+                {
+                    "source": "name: \"month\"",
+                    "target": "name: \"month\""
+                },
+                {
+                    "source": "description: \"The day (1-31) of the date for which you would like to grab a periodic note.\"",
+                    "target": "description: \"The day (1-31) of the date for which you would like to grab a periodic note.\""
+                },
+                {
+                    "source": "name: \"day\"",
+                    "target": "name: \"day\""
+                },
+                {
+                    "source": "description: \"Path to the matching file\"",
+                    "target": "description: \"Path to the matching file\""
+                },
+                {
+                    "source": "description: \"Your search query\"",
+                    "target": "description: \"Your search query\""
+                },
+                {
+                    "source": "name: \"query\"",
+                    "target": "name: \"query\""
+                },
+                {
+                    "source": "description: \"How much context to return around the matching string\"",
+                    "target": "description: \"How much context to return around the matching string\""
+                },
+                {
+                    "source": "name: \"contextLength\"",
+                    "target": "name: \"contextLength\""
+                },
+                {
+                    "source": "name: \"project\"",
+                    "target": "name: \"project\""
+                },
+                {
+                    "source": "name: \"important\"",
+                    "target": "name: \"important\""
+                },
+                {
+                    "source": "name: \"work\"",
+                    "target": "name: \"work\""
+                },
+                {
+                    "source": "name: \"work/tasks\"",
+                    "target": "name: \"work/tasks\""
+                },
+                {
+                    "source": "description: \"Number of times this tag is used across the vault.\"",
+                    "target": "description: \"Number of times this tag is used across the vault.\""
+                },
+                {
+                    "source": "description: \"Tag name without the leading `#`.\"",
+                    "target": "description: \"Tag name without the leading `#`.\""
+                },
+                {
+                    "source": "description: \"A list of tags with their usage counts.\"",
+                    "target": "description: \"A list of tags with their usage counts.\""
+                },
+                {
+                    "source": "description: \"Directory does not exist\"",
+                    "target": "description: \"Directory does not exist\""
+                },
+                {
+                    "source": "description: \"Path to the relevant file (relative to your vault root).\\\\n Optionally, you may include a reference to a sub-part of the document to return; see \\\\\"",
+                    "target": "description: \"Path to the relevant file (relative to your vault root).\\\\n Optionally, you may include a reference to a sub-part of the document to return; see \\\\\""
+                },
+                {
+                    "source": "name: \"pathToDirectory\"",
+                    "target": "name: \"pathToDirectory\""
+                },
+                {
+                    "source": "description: \"HTTPS (Secure Mode)\"",
+                    "target": "description: \"HTTPS (Secure Mode)\""
+                },
+                {
+                    "source": "description: \"Binding host\"",
+                    "target": "description: \"Binding host\""
+                },
+                {
+                    "source": "description: \"HTTPS port\"",
+                    "target": "description: \"HTTPS port\""
+                },
+                {
+                    "source": "description: \"HTTP (Insecure Mode)\"",
+                    "target": "description: \"HTTP (Insecure Mode)\""
+                },
+                {
+                    "source": "description: \"HTTP port\"",
+                    "target": "description: \"HTTP port\""
+                },
+                {
+                    "source": "name: \"Vault Files\"",
+                    "target": "name: \"Vault Files\""
+                },
+                {
+                    "source": "name: \"Active File\"",
+                    "target": "name: \"Active File\""
+                },
+                {
+                    "source": "name: \"Periodic Notes\"",
+                    "target": "name: \"Periodic Notes\""
+                },
+                {
+                    "source": "name: \"Vault Directories\"",
+                    "target": "name: \"Vault Directories\""
+                },
+                {
+                    "source": "name: \"Search\"",
+                    "target": "name: \"Search\""
+                },
+                {
+                    "source": "name: \"Commands\"",
+                    "target": "name: \"Commands\""
+                },
+                {
+                    "source": "name: \"Open\"",
+                    "target": "name: \"Open\""
+                },
+                {
+                    "source": "name: \"commonName\"",
+                    "target": "name: \"commonName\""
+                },
+                {
+                    "source": "name: \"basicConstraints\"",
+                    "target": "name: \"basicConstraints\""
+                },
+                {
+                    "source": "name: \"keyUsage\"",
+                    "target": "name: \"keyUsage\""
+                },
+                {
+                    "source": "name: \"extKeyUsage\"",
+                    "target": "name: \"extKeyUsage\""
+                },
+                {
+                    "source": "name: \"nsCertType\"",
+                    "target": "name: \"nsCertType\""
+                },
+                {
+                    "source": "name: \"subjectAltName\"",
+                    "target": "name: \"subjectAltName\""
+                },
+                {
+                    "source": "text: \"Local REST API\"",
+                    "target": "text: \"Local REST API\""
+                },
+                {
+                    "source": "text: \"How to Access\"",
+                    "target": "text: \"How to Access\""
+                },
+                {
+                    "source": "text: \"For example, the following request will return all notes in the root directory of your vault:\"",
+                    "target": "text: \"For example, the following request will return all notes in the root directory of your vault:\""
+                },
+                {
+                    "source": "text: `GET /vault/ HTTP/1.1\n${(_a2 = this.plugin.settings.authorizationHeaderName) != null ? _a2 : \"Authorization\"}: Bearer ${this.plugin.settings.apiKey}`",
+                    "target": "text: `GET /vault/ HTTP/1.1\n${(_a2 = this.plugin.settings.authorizationHeaderName) != null ? _a2 : \"Authorization\"}: Bearer ${this.plugin.settings.apiKey}`"
+                },
+                {
+                    "source": "text: \"Settings\"",
+                    "target": "text: \"Settings\""
+                },
+                {
+                    "source": "text: \"Advanced Settings\"",
+                    "target": "text: \"Advanced Settings\""
+                },
+                {
+                    "source": "text: `\n          Use of this software is licensed to you under the\n          MIT license, and it is important that you understand that \n          this license provides you with no warranty.\n          For the complete license text please see\n        `",
+                    "target": "text: `\n          Use of this software is licensed to you under the\n          MIT license, and it is important that you understand that \n          this license provides you with no warranty.\n          For the complete license text please see\n        `"
+                },
+                {
+                    "source": "text: \".\"",
+                    "target": "text: \".\""
+                }
+            ]
+        }
+    }
+}
