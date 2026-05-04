@@ -11,5 +11,18 @@
         "created_at": "2026-05-03T05:43:11.201Z",
         "updated_at": "2026-05-03T05:43:11.201Z",
         "type": "plugin"
+    },
+    {
+        "id": "gJjNm_PRGWY8bAVDTfe6O9UDpqIXyl9X",
+        "plugin": "obsidian-local-rest-api",
+        "language": "zh-cn",
+        "version": "3.6.1",
+        "supported_versions": "3.6.1",
+        "title": "Local REST API",
+        "description": "Local REST API Localization & Tweaks",
+        "hash": "3bf580f43bf580f43bf580f43bf580f4",
+        "created_at": "2026-05-04T05:50:58.832Z",
+        "updated_at": "2026-05-04T05:50:58.832Z",
+        "type": "plugin"
     }
 ]
